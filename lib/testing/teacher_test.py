@@ -3,7 +3,7 @@
 from teacher import Teacher
 from user import User
 
-my_teacher = Teacher("My", "Teacher")
+my_teacher = Teacher("My", "Teacher", ["Math", "Science"] )
 
 class TestTeacher:
     '''Class "Teacher" in teacher.py'''
